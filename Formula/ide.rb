@@ -13,11 +13,12 @@ class Ide < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
+    #system "./configure", "--disable-debug",
+    #                      "--disable-dependency-tracking",
+    #                      "--disable-silent-rules",
+    #                      "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
+    bin.install "ide" # ←実行ファイルを実行Pathに配置するよの意味
   end
 
   test do
@@ -30,6 +31,6 @@ class Ide < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    system "false"
+    system "true"
   end
 end
