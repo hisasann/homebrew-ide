@@ -4,8 +4,8 @@
 class Ide < Formula
   desc "Hisasann ide"
   homepage "https://github.com/hisasann/ide"
-  url "https://github.com/hisasann/ide/archive/v0.0.1.tar.gz"
-  sha256 "2ca0ab7eb8e99ea560106acc3363fc8ea8512a0c9947d13b138584a318e66d90"
+  url "https://github.com/hisasann/ide/releases/download/v0.0.1/ide"
+  sha256 "91ee41935651db8ba4d02892b655744b26c9b9ebe39c849e92b135770b651f83"
   license ""
 
   # depends_on "cmake" => :build
