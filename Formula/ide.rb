@@ -18,7 +18,8 @@ class Ide < Formula
     #                      "--disable-silent-rules",
     #                      "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
-    bin.install "ide" # ←実行ファイルを実行Pathに配置するよの意味
+    # 実行ファイルを実行Pathに配置するよの意味
+    bin.install "ide"
   end
 
   test do
