@@ -1,8 +1,8 @@
 class Ide < Formula
   desc "Hisasann ide"
   homepage "https://github.com/hisasann/ide"
-  url "https://github.com/hisasann/ide/releases/download/v0.0.1/ide"
-  sha256 "91ee41935651db8ba4d02892b655744b26c9b9ebe39c849e92b135770b651f83"
+  url "https://github.com/hisasann/ide/releases/download/v0.0.2/ide"
+  sha256 "13b1bb18d9fc380daa057628c343337eb3b590184af0a1823e2649eeffe34645"
   license "MIT"
 
   def install
